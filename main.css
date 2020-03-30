@@ -1,0 +1,72 @@
+* {
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 265px 0 250px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+#Myname {
+  font-family: "bad script", cursive;
+}
+
+.intext {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-size {
+  font-size: xx-large;
+}
+
+.card {
+  position: -webkit-sticky;
+}
+
+.banner {
+  background-image: url("./images/code.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.heading {
+  display: flex;
+  font-family: "Baloo Thambi 2", cursive;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.img-circle {
+  clip-path: circle(47% at 50% 50%);
+}
+
+.about-heading {
+  color: rgb(160, 159, 159);
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.about-text {
+  font-size: larger;
+  font-family: "Comic Neue", cursive;
+}
+
+.progress {
+  border-radius: 25px;
+  height: 25px;
+}
+
+#skills {
+  padding-left: 50px;
+  padding-right: 50px;
+}
