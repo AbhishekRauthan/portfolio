@@ -23,10 +23,6 @@ section {
   font-size: xx-large;
 }
 
-.card {
-  position: -webkit-sticky;
-}
-
 .banner {
   background-image: url("./images/code.jpg");
   background-position: center center;
@@ -66,7 +62,16 @@ section {
   height: 25px;
 }
 
-#skills {
-  padding-left: 50px;
-  padding-right: 50px;
+.skill-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-group-item{
+  font-family: "Comic Neue", cursive;
+}
+
+.card-title{
+  font-family: "Baloo Thambi 2", cursive;
 }
