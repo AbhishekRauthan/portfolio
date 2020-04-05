@@ -75,3 +75,7 @@ section {
 .card-title{
   font-family: "Baloo Thambi 2", cursive;
 }
+
+.cont-img:hover{
+  background-color: white;
+}

@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Roboto|Bad+Script&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="main.css" />
     <title>Abhishek Rauthan</title>
   </head>
@@ -64,8 +65,8 @@
       </div>
     </nav>
     <div class="container-md banner text-light">
-      <header>
-        <div class="container text-center">
+      <header data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+        <div   class="container text-center">
           <h1 class="title heading">
             Full Stack Web Developer
           </h1>
@@ -79,14 +80,14 @@
     <section id="about" class="container-fluid bg-light">
       <h1 class="heading">About Me</h1>
       <div class="row justify-content-end">
-        <div class="col-md-4" style="padding: 0%;">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="50" style="padding: 0%;">
           <img
             class="img-fluid img-circle float-xl-right"
             src="./images/Imgme.jpg"
             alt=""
           />
         </div>
-        <div class="col-md-8" style="padding-right: 75px;">
+        <div class="col-md-8" data-aos="fade-down" data-aos-delay="50" style="padding-right: 75px;">
           <h1 class="about-heading text-md-right">
             Hi, I am
             <strong style="color: rgb(92, 87, 87);"><u>Abhishek</u></strong>
@@ -118,7 +119,7 @@
       <h1 class="heading">Skill Set</h1>
       <div class="row">
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-body">
               <img
                 src="images/domain.png"
@@ -138,7 +139,7 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-body">
               <img
                 src="images/web-programming.png"
@@ -157,7 +158,7 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-body">
               <img
                 src="images/gear.png"
@@ -180,6 +181,23 @@
 
     <section id="contact" class="container-fluid bg-dark">
       <h2 class="heading text-light">For Contact</h2>
+      <div class="row justify-content-center">
+        <div class="col-4 text-right">
+          <a href="https://github.com/AbhishekRauthan">
+            <img src="images/github.png" alt="github" class="img-fluid cont-img" height="40" width="40">
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="https://www.linkedin.com/in/abhishek-rauthan-62b1b1100/">
+            <img src="images/linkedin.png" alt="linkedin" class="img-fluid cont-img" height="40" width="40">
+          </a>
+        </div>
+        <div class="col-4 text-left">
+          <a href="mailto:abhishek.rauthan.10@gmail.com">
+            <img src="images/gmail.png" alt="gmail" class="img-fluid cont-img" height="40" width="40">
+          </a>
+        </div>
+      </div>
     </section>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -196,5 +214,9 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
